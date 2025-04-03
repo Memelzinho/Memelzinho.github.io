@@ -97,3 +97,51 @@ footer {
 
 
 <button onclick="toggleDarkMode()">Modo Escuro</button>
+
+
+.pet-form {
+    background-color: #fff;
+    padding: 30px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.pet-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pet-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.pet-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.pet-form input,
+.pet-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.pet-form button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pet-form button:hover {
+    background-color: #cc5500;
+}
