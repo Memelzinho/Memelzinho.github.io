@@ -80,3 +80,20 @@ footer {
     color: white;
     margin-top: 20px;
 }
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+
+.dark-mode header {
+    background-color: #444;
+}
+
+
+.dark-mode footer {
+    background-color: #111;
+}
+
+
+<button onclick="toggleDarkMode()">Modo Escuro</button>
